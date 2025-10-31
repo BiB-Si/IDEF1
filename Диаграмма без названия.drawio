@@ -410,7 +410,7 @@
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-112" value="Использует" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLSxakcZ5Mj65EyhJ7dW-111">
           <mxGeometry x="0.248" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="47" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PLSxakcZ5Mj65EyhJ7dW-45" target="PLSxakcZ5Mj65EyhJ7dW-114">
