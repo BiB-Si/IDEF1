@@ -188,7 +188,7 @@
           <mxGeometry x="1235" y="720" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-23" value="Оплата" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1608" y="210" width="210" height="190" as="geometry" />
+          <mxGeometry x="1930" y="434" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-24" value="# payment_id: INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-23">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -196,14 +196,14 @@
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-25" value="+ booking_id: INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-23">
           <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-27" value="+ payment_status: ENUM(&#39;оплачено&#39;, &#39;не оплачено&#39;), DEFAULT &#39;не оплачено&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-23">
+          <mxGeometry y="78" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-28" value="+ payment_date: DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-23">
+          <mxGeometry y="110" width="210" height="32" as="geometry" />
+        </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-26" value="+ payment_method: text" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-23">
-          <mxGeometry y="78" width="210" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-27" value="+ payment_status: ENUM(&#39;оплачено&#39;, &#39;не оплачено&#39;), DEFAULT &#39;не оплачено&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1608" y="320" width="210" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-28" value="+ payment_date: DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1608" y="361" width="200" height="32" as="geometry" />
+          <mxGeometry y="142" width="210" height="28" as="geometry" />
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-29" value="Уведомления" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="450" width="210" height="136" as="geometry" />
@@ -228,11 +228,6 @@
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PLSxakcZ5Mj65EyhJ7dW-5" target="PLSxakcZ5Mj65EyhJ7dW-11">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-51" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PLSxakcZ5Mj65EyhJ7dW-36">
-          <mxGeometry x="0.693" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PLSxakcZ5Mj65EyhJ7dW-9" target="PLSxakcZ5Mj65EyhJ7dW-25">
           <mxGeometry relative="1" as="geometry" />
@@ -275,6 +270,29 @@
         </mxCell>
         <mxCell id="PLSxakcZ5Mj65EyhJ7dW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PLSxakcZ5Mj65EyhJ7dW-45" target="PLSxakcZ5Mj65EyhJ7dW-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-58" value="Сотрудник" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1380" y="1020" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PLSxakcZ5Mj65EyhJ7dW-58" source="PLSxakcZ5Mj65EyhJ7dW-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-59" value="# user_id: INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-58">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-60" value="+ first_name: VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-58">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-61" value="+ email: VARCHAR(100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-58">
+          <mxGeometry y="78" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-62" value="+ place_id: INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-58">
+          <mxGeometry y="110" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="PLSxakcZ5Mj65EyhJ7dW-63" value="+ Телефон: INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PLSxakcZ5Mj65EyhJ7dW-58">
+          <mxGeometry y="142" width="210" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
